@@ -15,6 +15,10 @@ on:
   repository_dispatch:
     types: publish-api
 
+  push:
+    branches:
+    - mikelehen/get-model-results
+
 jobs:
   execute-model:
     runs-on: self-hosted
